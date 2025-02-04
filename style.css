@@ -77,10 +77,15 @@ nav li:first-child{
     justify-content: center;
 } */
 
-.form-wrapper{
+.search-wrapper{
     display: flex;
     justify-content: center;
+}
+
+.form-wrapper{
+    display: inline-flex;
     align-items: center;
+    vertical-align: top;
 }
 
 .form-wrapper button{
@@ -104,23 +109,33 @@ nav li:first-child{
     border-radius: 5px;
     border: none;
     transition-duration: 0.4s;
+    padding:16px;
+    outline: none;
 }
 
 .searchbar:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+.carousel-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #carousel-items{
+    margin:5px;
+  }
+
 /* Slideshow container */
 .slideshow-container {
-    width: 500px;
     position: relative;
-    margin: auto;
   }
 
   .slide-images{
     object-fit: cover;
-    width: 75vh;
-    height: 25vh;
+    width: 120vh;
+    height: 30vh;
   }
   
   /* Hide the images by default */
@@ -131,10 +146,9 @@ nav li:first-child{
   /* Next & previous buttons */
   .prev, .next {
     cursor: pointer;
-    position: absolute;
-    top: 50%;
+    /* position: absolute; */
+    /* top: 50%; */
     width: auto;
-    margin-top: -22px;
     padding: 16px;
     color: white;
     font-weight: bold;
@@ -146,7 +160,6 @@ nav li:first-child{
   
   /* Position the "next button" to the right */
   .next {
-    right: 0;
     border-radius: 3px 0 0 3px;
   }
   
@@ -192,10 +205,6 @@ nav li:first-child{
     to {opacity: 1}
   }
 
-
-
-
-
 @media(max-width: 800px){
     .hideOnMobile{
         display: none;
@@ -210,3 +219,10 @@ nav li:first-child{
         width:100%;
     }
 }
+
+.categories-wrapper{
+    border: 10px solid black;
+    width: 900px;
+    height: 900px;
+}
+
