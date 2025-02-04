@@ -33,37 +33,71 @@
             </form>
         </div>
 
-    <div class="slideshow-container">
-            <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-            <div class="numbertext">1 / 4</div>
-                <img class="slide-images" src="images/ads_banner_1.jpg">
-        </div>
-        <div class="mySlides fade">
-        <div class="numbertext">2 / 4</div>
-            <img class="slide-images" src="images/ads_banner_2.jpeg">
-        </div>
-        <div class="mySlides fade">
-            <div class="numbertext">3 / 4</div>
-                <img class="slide-images" src="images/ads_banner_3.jpeg">
-        </div>
-        <div class="mySlides fade">
-            <div class="numbertext">3 / 4</div>
-                <img class="slide-images" src="images/ads_banner_4.jpeg">
-        </div>
-
-            <!-- Next and previous buttons -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <div class="carousel-wrapper">
+            <div id="carousel-items">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            </div>
+                <div id="carousel-items" class="slideshow-container">
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 4</div>
+                            <img class="slide-images" src="images/ads_banner_1.jpg">
+                    </div>
+                    <div class="mySlides fade">
+                    <div class="numbertext">2 / 4</div>
+                        <img class="slide-images" src="images/ads_banner_2.jpeg">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 4</div>
+                            <img class="slide-images" src="images/ads_banner_3.jpeg">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 4</div>
+                            <img class="slide-images" src="images/ads_banner_4.jpeg">
+                    </div>
+                </div>
+            <div id="carousel-items">
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
         </div>
         <br>
-
             <!-- The dots/circles -->
         <div style="text-align:center">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
         </div>
+        <br>
+        <br>
+        <h1>Categories</h1>
+        <div class="categories-wrapper">
+            <div class="categories-div">
+                <img src="images/categories_img1.jpg" alt="">
+                <h3>Electronics</h3>   
+            </div>
+            <div class="categories-div">
+                <img src="images/categories_img2.jpg" alt="">
+                <h3>Fashion and apparel</h3>
+            </div>
+            <div class="categories-div">
+                <img src="images/categories_img3.jpg" alt="">
+                <h3>Food</h3>
+            </div>
+            <div class="categories-div">
+                <img src="images/categories_img4.jpg" alt="">
+                <h3>Beauty and personal care</h3>
+            </div>
+            <div class="categories-div">
+                <img src="images/categories_img5.jpg" alt="">
+                <h3>Toys and accessories</h3>           
+            </div>
+        </div>
+
+
+
+
+
     </div>
 
 
