@@ -70,33 +70,46 @@
         </div>
         <br>
         <br>
-        <h1>Categories</h1>
+
+        <h1 class="categories-header">Categories</h1>
         <div class="categories-wrapper">
-            <div class="categories-div">
-                <img src="images/categories_img1.jpg" alt="">
-                <h3>Electronics</h3>   
+            <div class="categories">
+                <div class="categories-div">
+                    <img src="images/categories_img1.jpg" alt="">
+                    <h2>Electronics</h2>   
+                </div>
+                <div class="categories-div">
+                    <img src="images/categories_img2.jpg" alt="">
+                    <h2>Fashion and apparel</h2>
+                </div>
+                <div class="categories-div">
+                    <img src="images/categories_img3.jpg" alt="">
+                    <h2>Food</h2>
+                </div>
+                <div class="categories-div">
+                    <img src="images/categories_img4.jpg" alt="">
+                    <h2>Beauty and personal care</h2>
+                </div>
+                <div class="categories-div">
+                    <img src="images/categories_img5.jpg" alt="">
+                    <h2>Toys and accessories</h2>           
+                </div>
             </div>
-            <div class="categories-div">
-                <img src="images/categories_img2.jpg" alt="">
-                <h3>Fashion and apparel</h3>
-            </div>
-            <div class="categories-div">
-                <img src="images/categories_img3.jpg" alt="">
-                <h3>Food</h3>
-            </div>
-            <div class="categories-div">
-                <img src="images/categories_img4.jpg" alt="">
-                <h3>Beauty and personal care</h3>
-            </div>
-            <div class="categories-div">
-                <img src="images/categories_img5.jpg" alt="">
-                <h3>Toys and accessories</h3>           
+        </div>
+        <br>
+        <br>
+        <h1 class="categories-header">Flash Sale</h1>
+        <div class="flash-sale-wrapper">
+            <div class="flash-sale-items">
+                <img src="images/item-img.png">
+                <h3>Iphone 14</h3>
+                <h2>P400.00</h2>
+                <h5>23 Sold</h5>
             </div>
         </div>
 
-
-
-
+    <br>
+    <br>
 
     </div>
 
@@ -165,4 +178,3 @@
             }
     </script>
 </body>
-</html>
