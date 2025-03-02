@@ -5,10 +5,6 @@
 }
 body{
     min-height: 100vh;
-    background-image: url(images/background_img.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgba(255,255,255,0.1);
     background-blend-mode: lighten;
@@ -107,7 +103,7 @@ nav li:first-child{
     height: 30px;
     width: 50vh;
     border-radius: 5px;
-    border: none;
+    border: solid 1px gray;
     transition-duration: 0.4s;
     padding:16px;
     outline: none;
@@ -220,9 +216,38 @@ nav li:first-child{
     }
 }
 
-.categories-wrapper{
-    border: 10px solid black;
-    width: 900px;
-    height: 900px;
+.categories-header{
+   margin-left: 15%;
+   color: black;
+   text-shadow: 2px 4px 4px rgb(46 91 173 / 0.6);
+   
 }
+
+.categories-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.categories{
+    height: 275px;
+    display: flex;
+    background-color: rgba(29, 20, 20, 0.5);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.categories h2{
+  color:#f0f0f0;
+  /* text-shadow: rgb(255, 255, 255) 1px 0 10px; */
+}
+
+.categories img{
+  width: 250px;
+  height: 200px;
+  margin:20px 14px 5px 14px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
 
