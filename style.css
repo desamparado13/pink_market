@@ -249,5 +249,35 @@ nav li:first-child{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.flash-sale-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1400px;
+    text-align: center;
+}
+
+.flash-sale-items img{
+    width: 250px;
+    height: 200px;
+    margin:20px 14px 5px 14px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.jfu-sale-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1400px;
+    text-align: center;
+}
 
 
+.jfu-sale-items img{
+    width: 350px;
+    height: 300px;
+    margin:20px 14px 5px 14px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
