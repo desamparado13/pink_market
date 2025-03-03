@@ -8,31 +8,10 @@
     <title>Pink Market</title>
 </head>
 <body>
-    <nav>
-        <ul class="sidebar">
-            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-            <li><a href="#">Sell</a></li>
-            <li><a href="#">Track Order</a></li>
-            <li><a href="#">Login</a></li>
-            <li><a href="#">Signup</a></li>
-        </ul>
-        <ul>
-            <li class=""><a href="#">Pink Market</a></li>
-            <li class="hideOnMobile"><a href="#">Sell</a></li>
-            <li class="hideOnMobile"><a href="#">Track Order</a></li>
-            <li class="hideOnMobile"><a href="#">Login</a></li>
-            <li class="hideOnMobile"><a href="#">Signup</a></li>
-            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
-        </ul>
-    </nav>
+    <?php
+        include "nav.php";
+    ?>
     <div class="main_body">
-        <div class="search-wrapper">
-            <form class="form-wrapper"action="">
-                <input class="searchbar" type="text" placeholder="Search in Pink Market">
-                <button type="submit">Find</button>
-            </form>
-        </div>
-
         <div class="carousel-wrapper">
             <div id="carousel-items">
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -75,8 +54,10 @@
         <div class="categories-wrapper">
             <div class="categories">
                 <div class="categories-div">
-                    <img src="images/categories_img1.jpg" alt="">
-                    <h2>Electronics</h2>   
+                    <a href="product-page.php"><img src="images/categories_img1.jpg" alt="">
+                    <h2>Electronics</h2>  
+                </a>
+         
                 </div>
                 <div class="categories-div">
                     <img src="images/categories_img2.jpg" alt="">
@@ -100,6 +81,32 @@
         <br>
         <h1 class="categories-header">Flash Sale</h1>
         <div class="flash-sale-wrapper">
+            <div class="flash-sale-items">
+                <a href="">
+                    <img src="images/item-img.png">
+                    <h3>Iphone 14</h3>
+                    <h2>P400.00</h2>
+                    <h5>23 Sold</h5>              
+                </a>
+            </div>
+            <div class="flash-sale-items">
+                <img src="images/item-img.png">
+                <h3>Iphone 14</h3>
+                <h2>P400.00</h2>
+                <h5>23 Sold</h5>
+            </div>
+            <div class="flash-sale-items">
+                <img src="images/item-img.png">
+                <h3>Iphone 14</h3>
+                <h2>P400.00</h2>
+                <h5>23 Sold</h5>
+            </div>
+            <div class="flash-sale-items">
+                <img src="images/item-img.png">
+                <h3>Iphone 14</h3>
+                <h2>P400.00</h2>
+                <h5>23 Sold</h5>
+            </div>
             <div class="flash-sale-items">
                 <img src="images/item-img.png">
                 <h3>Iphone 14</h3>
@@ -135,12 +142,14 @@
     <br>
     <br>
     <h1 class="categories-header">Just for you</h1>
-    <div class="jfu-sale-items">
-        <div class="jfu-items">
-            <img src="images/item-img.png">
-            <h3>Iphone 14</h3>
-            <h2>P400.00</h2>
-            <h5>23 Sold</h5>
+    <div class="jfu-sale-wrapper">
+        <div class="jfu-sale-items">
+            <a href="">
+                <img src="images/item-img.png">
+                <h3>Iphone 14</h3>
+                <h2>P400.00</h2>
+                <h5>23 Sold</h5>
+            </a>
         </div>
         <div class="jfu-sale-items">
             <img src="images/item-img.png">
