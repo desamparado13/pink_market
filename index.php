@@ -106,7 +106,58 @@
                 <h2>P400.00</h2>
                 <h5>23 Sold</h5>
             </div>
+            <div class="flash-sale-items">
+                <img src="images/item-img.png">
+                <h3>Iphone 14</h3>
+                <h2>P400.00</h2>
+                <h5>23 Sold</h5>
+            </div>
+            <div class="flash-sale-items">
+                <img src="images/item-img.png">
+                <h3>Iphone 14</h3>
+                <h2>P400.00</h2>
+                <h5>23 Sold</h5>
+            </div>
+            <div class="flash-sale-items">
+                <img src="images/item-img.png">
+                <h3>Iphone 14</h3>
+                <h2>P400.00</h2>
+                <h5>23 Sold</h5>
+            </div>
+            <div class="flash-sale-items">
+                <img src="images/item-img.png">
+                <h3>Iphone 14</h3>
+                <h2>P400.00</h2>
+                <h5>23 Sold</h5>
+            </div>
         </div>
+
+    <br>
+    <br>
+    <h1 class="categories-header">Just for you</h1>
+    <div class="jfu-sale-items">
+        <div class="jfu-items">
+            <img src="images/item-img.png">
+            <h3>Iphone 14</h3>
+            <h2>P400.00</h2>
+            <h5>23 Sold</h5>
+        </div>
+        <div class="jfu-sale-items">
+            <img src="images/item-img.png">
+            <h3>Iphone 14</h3>
+            <h2>P400.00</h2>
+            <h5>23 Sold</h5>
+        </div>
+        <div class="jfu-sale-items">
+            <img src="images/item-img.png">
+            <h3>Iphone 14</h3>
+            <h2>P400.00</h2>
+            <h5>23 Sold</h5>
+        </div>
+    </div>
+
+
+
 
     <br>
     <br>
