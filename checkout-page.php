@@ -13,68 +13,46 @@
 
     <h1 style="text-align: center;">Items</h1>
     <div class="items-container">
-    <style>
-.table_component {
-    overflow: auto;
-    width:75%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.table_component table {
-    border: 1px solid #dededf;
-    height: 100%;
-    width: 100%;
-    table-layout: fixed;
-    border-collapse: collapse;
-    border-spacing: 1px;
-    text-align: left;
-}
-
-.table_component caption {
-    caption-side: top;
-    text-align: left;
-}
-
-.table_component th {
-    border: 1px solid #dededf;
-    background-color: #eceff1;
-    color: #000000;
-    padding: 5px;
-}
-
-.table_component td {
-    border: 1px solid #dededf;
-    background-color: #ffffff;
-    color: #000000;
-    padding: 5px;
-}
-</style>
-<div class="table_component" role="region" tabindex="0">
-<table>
-    <caption>
-        <p>Checkout</p>
-    </caption>
-    <thead>
-        <tr>
-            <th>Products Ordered</th>
-            <th>Unit Price</th>
-            <th>Quantity</th>
-            <th>Item subtotal</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Iphone 6s</td>
-            <td>400</td>
-            <td>1</td>
-            <td>400</td>
-        </tr>
-    </tbody>
-</table>
-<div>Made with <a href="https://www.htmltables.io/" target="_blank">HTML Tables</a></div>
-</div>
-
+        <div class="table_component" role="region" tabindex="0">
+        <table>
+            <caption>
+                <p>Checkout</p>
+            </caption>
+            <thead>
+                <tr>
+                    <th>Products Ordered</th>
+                    <th>Unit Price</th>
+                    <th>Quantity</th>
+                    <th>Item subtotal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Iphone 6s</td>
+                    <td>400</td>
+                    <td>1</td>
+                    <td>400</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    </div>
+    <br>
+    <div class="address-section">
+        <div class="address-details">
+            <h1>Address</h1>
+            <h2>District 1, Brgy. 5, Agusan del Norte</h2>
+            <h2>09260634628</h2>
+            <h2>Christian Angelo</h2>
+        </div>
+    </div>
+    <br>
+    <div class="place-order-container">
+        <div class="place-order-div">
+            <h2>Shipping Cost: P50</h2>
+            <h2>Order Total: P450</h2>
+            <button style="padding:5px;cursor:pointer"><a href="done-page.php">Place Order</a></button>
+        </div>
     </div>
     
 </body>
