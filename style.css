@@ -232,14 +232,13 @@ align-items: center;
 .categories{
   height: 275px;
   display: flex;
-  background-color: rgba(29, 20, 20, 0.5);
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  background-color: #F7F7F7;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   text-align: center;
 }
 
 .categories h2{
-color:#f0f0f0;
-/* text-shadow: rgb(255, 255, 255) 1px 0 10px; */
+color:#021526;
 }
 
 .categories img{
@@ -308,6 +307,10 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   padding: 20px;
 }
 
+.left-divider{
+  text-align: center;
+}
+
 .left-divider a{
   text-decoration: none;
   color: black;
@@ -351,4 +354,69 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   cursor: pointer;
   padding: 5px;
   margin: 5px;
+}
+
+.table_component {
+  overflow: auto;
+  width:75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table_component table {
+  border: 1px solid #dededf;
+  height: 100%;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 1px;
+  text-align: left;
+}
+
+.table_component caption {
+  caption-side: top;
+  text-align: left;
+}
+
+.table_component th {
+  border: 1px solid #dededf;
+  background-color: #eceff1;
+  color: #000000;
+  padding: 5px;
+}
+
+.table_component td {
+  border: 1px solid #dededf;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 5px;
+}
+
+.place-order-div{
+  display: flex;
+  flex-direction: column;
+  margin-left: 70%;
+  margin-top: 3%;
+}
+
+.place-order-div h2{
+  margin: 3%;
+}
+
+.place-order-div button{
+  width: 150px;
+  margin: 2%;
+}
+
+.address-details{
+  margin-top: 3.4%;
+  margin-left: 20%;
+}
+
+.receipt-container{
+  margin-top: 2.5%;
+}
+
+.receipt-container h1{
+  text-align: center;
 }
