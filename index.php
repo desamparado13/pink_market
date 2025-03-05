@@ -51,6 +51,7 @@
         <br>
 
         <h1 class="categories-header">Categories</h1>
+        <br>
         <div class="categories-wrapper">
             <div class="categories">
                 <div class="categories-div">
@@ -80,6 +81,7 @@
         <br>
         <br>
         <h1 class="categories-header">Flash Sale</h1>
+        <br>
         <div class="flash-sale-wrapper">
             <div class="flash-sale-items">
                 <a href="">
@@ -142,6 +144,7 @@
     <br>
     <br>
     <h1 class="categories-header">Just for you</h1>
+    <br>
     <div class="jfu-sale-wrapper">
         <div class="jfu-sale-items">
             <a href="">
